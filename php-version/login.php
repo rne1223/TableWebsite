@@ -4,7 +4,7 @@ include('header.php'); ?>
 
 			<div class="row-fluid">
 				<div class="span12 center login-header">
-					<h2>Welcome to Charisma</h2>
+					<h2>MUSHD</h2>
 				</div><!--/span-->
 			</div><!--/row-->
 			
@@ -13,7 +13,7 @@ include('header.php'); ?>
 					<div class="alert alert-info">
 						Please login with your Username and Password.
 					</div>
-					<form class="form-horizontal" action="index.html" method="post">
+					<form class="form-horizontal" action="table.html" method="post">
 						<fieldset>
 							<div class="input-prepend" title="Username" data-rel="tooltip">
 								<span class="add-on"><i class="icon-user"></i></span><input autofocus class="input-large span10" name="username" id="username" type="text" value="admin" />

@@ -119,7 +119,7 @@
 	<div class="container-fluid">
 		<div class="row-fluid">
 		<?php if(!isset($no_visible_elements) || !$no_visible_elements) { ?>
-			
+		
 			<noscript>
 				<div class="alert alert-block span10">
 					<h4 class="alert-heading">Warning!</h4>
@@ -127,6 +127,6 @@
 				</div>
 			</noscript>
 			
-			<div id="content" class="span10">
 			<!-- content starts -->
+			<div id="content" >
 			<?php } ?>

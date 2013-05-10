@@ -623,6 +623,7 @@ $.fn.dataTableExt.oApi.fnPagingInfo = function ( oSettings )
 		"iTotalPages":    Math.ceil( oSettings.fnRecordsDisplay() / oSettings._iDisplayLength )
 	};
 }
+
 $.extend( $.fn.dataTableExt.oPagination, {
 	"bootstrap": {
 		"fnInit": function( oSettings, nPaging, fnDraw ) {
